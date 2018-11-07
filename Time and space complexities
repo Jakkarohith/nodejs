@@ -5,32 +5,21 @@ In other words, time complexity is how long a program function takes to process 
 The main idea of asymptotic analysis is to have a measure of efficiency of algorithms that doesn’t depend on machine specific constants,
 and doesn’t require algorithms to be implemented and time taken by programs to be compared. 
 Asymptotic notations are mathematical tools to represent time complexity of algorithms for asymptotic analysis.
+
 Big Oh Notation, Ο
 The notation Ο(n) is the formal way to express the upper bound of an algorithm's running time. 
 It measures the worst case time complexity or the longest amount of time an algorithm can possibly take to complete.
-Big O Notation
-For example, for a function f(n)
-    Ο(f(n)) = { g(n) : there exists c > 0 and n0 such that f(n) ≤ c.g(n) for all n > n0. }
+
 Omega Notation, Ω
 The notation Ω(n) is the formal way to express the lower bound of an algorithm's running time. 
 It measures the best case time complexity or the best amount of time an algorithm can possibly take to complete.
-Omega Notation
-For example, for a function f(n)
-   Ω(f(n)) ≥ { g(n) : there exists c > 0 and n0 such that g(n) ≤ c.f(n) for all n > n0. }
+
 Theta Notation, θ
 The notation θ(n) is the formal way to express both the lower bound and the upper bound of an algorithm's running time.
-Theta Notation
-For example, for a function f(n)
-      θ(f(n)) = { g(n) if and only if g(n) =  Ο(f(n)) and g(n) = Ω(f(n)) for all n > n0. }
-      
+It measures the Average case time complexity 
+
 Space Complexity:      
 Space Complexity of an algorithm is total space taken by the algorithm with respect to the input size. Space complexity includes
 both Auxiliary space and space used by input.
 Auxiliary Space is the extra space or temporary space used by an algorithm
-For example,
-if we want to compare standard sorting algorithms on the basis of space, then Auxiliary Space would be a better criteria 
-than Space Complexity. Merge Sort uses O(n) auxiliary space, Insertion sort and Heap Sort use O(1) auxiliary space. 
-Space complexity of all these sorting algorithms is O(n) though.      
-      
-      
-      
+
