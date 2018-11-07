@@ -1,7 +1,9 @@
 Data Structure :
 A data structure is a specialized format for organizing and storing data. 
 A data structure is a particular way of organizing data in a computer so that it can be used effectively.
-The idea is to reduce the space and time complexities of different tasks.
+This data structures are generally of two types:
+1.linear data structure.
+2.Non-linear data structure.
 some popular linear data structures:
 1. Array
 2. Linked List
