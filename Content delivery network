@@ -17,9 +17,7 @@ the delivered URL is different than the URL that has been requested
 Advantages of CDN:
 Improve page load speed
 Handle high traffic loads
-Block spammers, scrapers and other bad bots
 Localize coverage without the cost
 Reduce bandwidth consumption
 Load balance between multiple servers
-Protect your website from DDoS attacks
 Secure your application
