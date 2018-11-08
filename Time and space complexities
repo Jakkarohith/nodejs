@@ -1,10 +1,5 @@
 Time complexity :
-Time complexity is a concept that deals with the quantification of the amount of time taken by a set of code or algorithm
-to process or run as a function of the amount of input.
-In other words, time complexity is how long a program function takes to process a given input.
-The main idea of asymptotic analysis is to have a measure of efficiency of algorithms that doesn’t depend on machine specific constants,
-and doesn’t require algorithms to be implemented and time taken by programs to be compared. 
-Asymptotic notations are mathematical tools to represent time complexity of algorithms for asymptotic analysis.
+Time complexity is how long a program function takes to process a given input.
 
 Big Oh Notation, Ο
 The notation Ο(n) is the formal way to express the upper bound of an algorithm's running time. 
