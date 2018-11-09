@@ -4,8 +4,7 @@ var arr=new Array();
 console.log("Enter the array elements");
 for(let i=0;i<n;i++)
 {
-    let temp=parseInt(sb.question());
-    arr[i]=temp;
+    arr[i]=parseInt(sb.question());;
 }
 var flag=0;
 var key=parseInt(sb.question("Enter the key value to search \n"));
